@@ -18,7 +18,7 @@ export class Projetos {
       Portabilidade para vários dispositivos.
       `,
       linkGithub: "https://github.com/YuriMont/plataforma_de_evento",
-      project: "https://plataforma-de-evento.vercel.app/",
+      project: "https://github.com/YuriMont/plataforma_de_evento",
     },
     {
       title: "Notifications Service",

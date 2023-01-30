@@ -1,7 +1,7 @@
 import projImg1 from "../assets/img/image1.png";
 import projImg2 from "../assets/img/image2.png";
 import projImg3 from "../assets/img/image3.png";
-import { Description1 } from "./description1";
+import projImg4 from "../assets/img/image4.png";
 
 export class Projetos {
   static values = [
@@ -33,6 +33,13 @@ export class Projetos {
       description: `Este projeto pessoal foi feito utilizando o framework Spring boot, na linguagem java, para o Backend, o framework ReactJS foi usado para criação do frontend e o serviço de banco de dados foi o MySQL. Neste projeto apresenta, criação de contas, serviço de login, além de várias funcionalidades, tais quais: adicionar imagem, visualizar imagem, excluir imagem, marcar imagem como favorita, visualizar imagens favoritas, pesquisar imagens por data de upload ou por título e excluir conta.`,
       linkGithub: "https://github.com/YuriMont/galeria",
       project: "https://github.com/YuriMont/galeria",
+    },
+    {
+      title: "Habits",
+      imgUrl: projImg4,
+      description: `O projeto fullstack tratase de um app de monitoramento de hábitos com calendário mostrando hábitos por dia com tonalidades de cores diferentes para identificar a conclusão de hábitos a cada dia. Possibilidade de criação e edição de conclusão de hábitos diariamente. Para a criação deste projeto foi utilizado: TypeScript, NodeJS, Fastify, Prisma, SQLite, ReactJS, Tailwindcss, Vite, Radix, Axios, React Native, Expo, NativeWind`,
+      linkGithub: "https://github.com/YuriMont/habits-platform",
+      project: "https://github.com/YuriMont/habits-platform",
     },
   ];
 }

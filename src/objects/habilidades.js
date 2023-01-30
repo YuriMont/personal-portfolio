@@ -25,6 +25,10 @@ export class Habilidades{
           percentage: 80,
         },
         {
+          language: "NodeJS",
+          percentage: 80,
+        },
+        {
           language: "React",
           percentage: 95,
         },

@@ -2,6 +2,7 @@ import projImg1 from "../assets/img/image1.png";
 import projImg2 from "../assets/img/image2.png";
 import projImg3 from "../assets/img/image3.png";
 import projImg4 from "../assets/img/image4.png";
+import projImg5 from "../assets/img/Group5.png";
 
 export class Projetos {
   static values = [
@@ -18,7 +19,7 @@ export class Projetos {
       Portabilidade para vários dispositivos.
       `,
       linkGithub: "https://github.com/YuriMont/plataforma_de_evento",
-      project: "https://github.com/YuriMont/plataforma_de_evento",
+      project: "https://plataforma-de-evento.vercel.app/",
     },
     {
       title: "Notifications Service",
@@ -41,5 +42,16 @@ export class Projetos {
       linkGithub: "https://github.com/YuriMont/habits-platform",
       project: "https://github.com/YuriMont/habits-platform",
     },
+    {
+      title: "Serviço de autenticação",
+      imgUrl: projImg5,
+      description: `Este serviço de autenticação foi criado utilizando o Spring Boot e o armazenamento de usuários será feito em um banco de dados PostgreSQL. A autenticação será baseada em tokens JWT (JSON Web Tokens). As senhas dos usuários serão armazenadas de forma criptografada, utilizando a classe PasswordEncoder nativa do Spring Security.
+
+      O serviço será protegido por autenticação baseada em token JWT. Quando um usuário fizer login, um token JWT será gerado e retornado na resposta. Esse token deverá ser incluído no cabeçalho das requisições posteriores para acessar os endpoints protegidos.
+        
+      Por fim, a autenticação do serviço será configurada utilizando o Spring Security.`,
+      linkGithub: "https://github.com/YuriMont/autenticao-springboot",
+      project: "https://github.com/YuriMont/autenticao-springboot"
+    }
   ];
 }

@@ -45,6 +45,10 @@ export class Habilidades{
           percentage: 90,
         },
         {
+          language: "PostgreSQL",
+          percentage: 90,
+        },
+        {
           language: "GraphQL",
           percentage: 70,
         },
